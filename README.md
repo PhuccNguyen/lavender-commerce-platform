@@ -1,66 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ Lavender Shop E-commerce Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<p align="left">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Status-Archived-success?style=for-the-badge" alt="Status">
 </p>
 
-## About Laravel
+> **A custom-built e-commerce web application engineered to power the digital storefront and retail operations for Lavender Shop.**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Lavender Shop** was a retail handbag business independently founded and operated from April 2022 to August 2024. This repository contains the foundational source code for its e-commerce platform. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Built with the **Laravel Framework**, the application was designed not just as a digital catalog, but as a core business tool integrating product management, user experience (UI/UX), and conversion optimization. This project represents my early intersection of **Full-Stack Development** and **E-commerce Business Operations**.
 
-## Learning Laravel
+## 🚀 Key Features & Business Impact
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* **Dynamic Product Catalog:** Structured modules for *Trending, New Fashion, Upcomming,* and *Hot Sales*, designed to drive user navigation and highlight key merchandise.
+* **Promotional Engine:** Integrated UI logic for discount campaigns (e.g., dynamic "10% off over $25" banners) to maximize Average Order Value (AOV).
+* **User-Centric UI/UX:** Clean, minimalist frontend utilizing responsive CSS, custom typography (Google Fonts: Poppins), and interactive elements (Boxicons, FontAwesome) to ensure a seamless shopping experience.
+* **Conversion-Focused Elements:** Features including product ratings (star system), wishlist toggles (heart icons), and clear pricing/sale displays to support retail marketing funnels.
+* **SEO & Marketing Ready:** Optimized HTML/Blade templates structured for search engine visibility, supporting overarching multi-channel marketing campaigns.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 💻 Tech Stack & Architecture
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* **Backend Framework:** Laravel (PHP)
+* **Design Pattern:** MVC (Model-View-Controller)
+* **Frontend:** Laravel Blade, HTML5, CSS3, Vanilla JS
+* **Database:** MySQL (Eloquent ORM)
+* **Assets & Tooling:** Vite/Webpack, Composer, Artisan CLI
 
-## Laravel Sponsors
+## ⚙️ Development Mindset
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+This platform was built with a "Business-First" approach. By utilizing Laravel's robust routing, secure architecture, and elegant template engine, the system allowed for rapid updates to product lines and seamless alignment with ongoing marketing initiatives. It served as the central digital hub for driving brand awareness and customer acquisition.
 
-### Premium Partners
+## 👨‍💻 Author
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+**William Nguyen (Phuc Nguyen)**
+*Business Manager @ TrustLab | Founder @ NexusPulse*
+* Full-Stack Product Builder combining deep tech with an "Automation-First" and Growth Hacking mindset.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+*Note: This repository serves as a portfolio archive of the foundational build. Sensitive configurations and environment variables (.env) have been safely omitted.*
